@@ -4,7 +4,7 @@ param location string
 var vnet_name = 'vnet-website'
 var vnet_address = '10.128.0.0/16'
 var default_subnet_name = 'default'
-var default_subnet_address = '10.128.0.0/24'
+var default_subnet_address = '10.128.1.0/24'
 
 resource vnet 'Microsoft.Network/virtualNetworks@2021-05-01' = {
   name: vnet_name
